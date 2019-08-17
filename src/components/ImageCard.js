@@ -1,34 +1,33 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 class ImageCard extends React.Component {
     constructor(props) {
         super(props);
         
-        this.state = { spans: 0 };
+        this.state = {  price: Math.floor((Math.random() * 100) + 1) };
         
         this.imageRef = React.createRef();
     }
     
     componentDidMount() {
-        this.imageRef.current.addEventListener('load', this.setSpans);
-    }
-    
-    setSpans = () => {
-        const height = this.imageRef.current.clientHeight;
-        
-        const spans = Math.ceil(height / 10);
-        
-        this.setState({ spans });
-        
+               
     }
     
     render() {
         
-        const {description, urls} = this.props.image;
+        const {alt_description, description, urls, id} = this.props.image;
         return (
-            <div style={{ gridRowEnd: `span ${this.state.spans}` }}>
-                <img ref={this.imageRef} alt={description} src={urls.regular} />
-            </div>
+                <Link to={`/shop/${id}`}>
+                    <div className="card">
+                        <img className="card-img-top img-fluid" ref={this.imageRef} alt={description} src={urls.regular} />
+                        <div className="card-body">
+                            <p className="card-text text-capitalize font-weight-bold">${this.state.price}.99</p>
+                            <p className="card-text text-capitalize font-weight-bold">{alt_description}</p>
+                            <p className="card-text text-capitalize">{description}</p>
+                        </div>
+                    </div>
+                </Link>
         )
     }
 }
