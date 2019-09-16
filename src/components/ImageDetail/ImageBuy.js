@@ -56,19 +56,18 @@ const ImageBuy = props => {
                         </div>
                     </div>
                     <div className="row">
-                        <Link to={`/shop/shopping-cart${props.id}`}>
+                        {/*<Link to={`/shop/shopping-cart${props.id}`}>*/}
                         <button className="btn btn-block btn-success">
                             <i className="fas fa-shopping-cart pr-4"></i>Add to Cart
                         </button>
-                        </Link>
+                        </div>{/*</Link>*/}
                         <button className="btn btn-block btn-success">
                             <i className="fas fa-cash-register pr-5"></i>Buy
                         </button>
-                        
                     </div>
                </div>
             </div>
-        </div>
+        
     )
 }
 
