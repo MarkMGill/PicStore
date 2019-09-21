@@ -7,7 +7,6 @@ import ImageList from './ImageList';
 import Nav from './Nav';
 import Footer from './Footer';
 import ImageDetail from './ImageDetail/ImageDetail';
-import ShoppingCart from './ImageDetail/ShoppingCart';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
@@ -20,10 +19,6 @@ class App extends React.Component {
         });
         
         this.setState({ images: response.data.results });
-    }
-    
-    componentDidMount() {
-
     }
     
     render() {
@@ -46,11 +41,6 @@ class App extends React.Component {
                             <Route 
                                 path="/shop/:id" 
                                 render={(props) => <ImageDetail {...props} images={this.state.images} />} 
-                            />
-                            <Route
-                                path="/shop/shopping-cart:id"
-                                render={(props) => <ShoppingCart {...props}
-                                images={this.state.images} />}
                             />
                         </Switch>
                     </div>

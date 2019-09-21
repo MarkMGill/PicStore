@@ -1,8 +1,4 @@
 import React from 'react';
-import ImageCard from '../ImageCard';
-import ImageDetail from './ImageDetail';
-import ShoppingCart from './ShoppingCart';
-import {Link} from 'react-router-dom';
 
 const ImageBuy = props => {
  
@@ -13,10 +9,6 @@ const ImageBuy = props => {
     const spanStyle = {
         color: 'blue',
         fontSize: '18px'
-    };
-
-    const iStyle = {
-        float: 'left'
     };
 
     var price= Math.floor((Math.random() * 100) + 1);
@@ -56,18 +48,16 @@ const ImageBuy = props => {
                         </div>
                     </div>
                     <div className="row">
-                        {/*<Link to={`/shop/shopping-cart${props.id}`}>*/}
                         <button className="btn btn-block btn-success">
                             <i className="fas fa-shopping-cart pr-4"></i>Add to Cart
                         </button>
-                        </div>{/*</Link>*/}
                         <button className="btn btn-block btn-success">
                             <i className="fas fa-cash-register pr-5"></i>Buy
                         </button>
                     </div>
                </div>
             </div>
-        
+        </div>
     )
 }
 

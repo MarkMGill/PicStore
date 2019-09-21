@@ -1,5 +1,4 @@
 import React from 'react';
-import ImageCard from '../ImageCard';
 import ImageInfo from './ImageInfo';
 import ImageBuy from './ImageBuy';
 
