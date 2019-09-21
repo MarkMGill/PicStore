@@ -35,11 +35,11 @@ class App extends React.Component {
                                 runIt={this.getRandomImages} />}
                             />
                             <Route 
-                                path="/PicStore/search=:searchTerm" exact 
+                                path="/search=:searchTerm" exact 
                                 render={(props) => <ImageList {...props} images={this.state.images} />} 
                             />
                             <Route 
-                                path="/PicStore/shop/:id" 
+                                path="/shop/:id" 
                                 render={(props) => <ImageDetail {...props} images={this.state.images} />} 
                             />
                         </Switch>
