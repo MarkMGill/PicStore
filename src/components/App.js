@@ -30,7 +30,7 @@ class App extends React.Component {
                         <SearchBar onSubmit={this.onSearchSubmit} />
                         <Switch>
                             <Route 
-                                path="/PicStore/" exact
+                                path="/" exact
                                 render={(props) => <Home {...props} randomImages={this.state.randomImages}
                                 runIt={this.getRandomImages} />}
                             />
