@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0962dc020962e51cc212b32b4917e82f",
+    "revision": "f36561184e4d160c941c53dd8e85d9e0",
     "url": "/PicStore/index.html"
   },
   {
-    "revision": "f2c35ca6da4297e3994e",
+    "revision": "0c6596ce06dd2305096b",
     "url": "/PicStore/static/css/main.3f0b79b0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PicStore/static/js/2.533bb83b.chunk.js"
   },
   {
-    "revision": "f2c35ca6da4297e3994e",
-    "url": "/PicStore/static/js/main.5d7746fe.chunk.js"
+    "revision": "0c6596ce06dd2305096b",
+    "url": "/PicStore/static/js/main.2c196f0d.chunk.js"
   },
   {
     "revision": "dcc178e40d140c95afdb",

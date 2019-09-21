@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PicStore/static/css/main.3f0b79b0.chunk.css",
-    "main.js": "/PicStore/static/js/main.5d7746fe.chunk.js",
-    "main.js.map": "/PicStore/static/js/main.5d7746fe.chunk.js.map",
+    "main.js": "/PicStore/static/js/main.2c196f0d.chunk.js",
+    "main.js.map": "/PicStore/static/js/main.2c196f0d.chunk.js.map",
     "runtime~main.js": "/PicStore/static/js/runtime~main.7a5cfbc0.js",
     "runtime~main.js.map": "/PicStore/static/js/runtime~main.7a5cfbc0.js.map",
     "static/js/2.533bb83b.chunk.js": "/PicStore/static/js/2.533bb83b.chunk.js",
     "static/js/2.533bb83b.chunk.js.map": "/PicStore/static/js/2.533bb83b.chunk.js.map",
     "index.html": "/PicStore/index.html",
-    "precache-manifest.e2f062dbb02e1e9f07b249707b579505.js": "/PicStore/precache-manifest.e2f062dbb02e1e9f07b249707b579505.js",
+    "precache-manifest.e3639eb3295cb0fa42888445b295005f.js": "/PicStore/precache-manifest.e3639eb3295cb0fa42888445b295005f.js",
     "service-worker.js": "/PicStore/service-worker.js",
     "static/css/main.3f0b79b0.chunk.css.map": "/PicStore/static/css/main.3f0b79b0.chunk.css.map"
   }
