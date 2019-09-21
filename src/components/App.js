@@ -30,16 +30,16 @@ class App extends React.Component {
                         <SearchBar onSubmit={this.onSearchSubmit} />
                         <Switch>
                             <Route 
-                                path="/" exact
+                                path="/PicStore/" exact
                                 render={(props) => <Home {...props} randomImages={this.state.randomImages}
                                 runIt={this.getRandomImages} />}
                             />
                             <Route 
-                                path="/search=:searchTerm" exact 
+                                path="/PicStore/search=:searchTerm" exact 
                                 render={(props) => <ImageList {...props} images={this.state.images} />} 
                             />
                             <Route 
-                                path="/shop/:id" 
+                                path="/PicStore/shop/:id" 
                                 render={(props) => <ImageDetail {...props} images={this.state.images} />} 
                             />
                         </Switch>
