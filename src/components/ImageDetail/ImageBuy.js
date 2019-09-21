@@ -14,7 +14,7 @@ const ImageBuy = props => {
     var price= Math.floor((Math.random() * 100) + 1);
 
     return (
-        <div className="card">{console.log(props.id)}
+        <div className="card">
             <div className="card-body">
                 <div className="container">
                     <div className="row">

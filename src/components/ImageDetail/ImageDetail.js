@@ -10,7 +10,6 @@ const ImageDetail = props => {
             image = cur;
         }
     });
-    console.log(props);
 
     const imageRef = React.createRef();
 
