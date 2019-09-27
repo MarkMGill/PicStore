@@ -9,7 +9,7 @@ function Nav() {
     return (
         <nav>
             <Link to="/">
-                <img src="art-icon.jpg" alt="art-icon" height="50px" width="50px"></img>
+                <img src="art-icon.jpg" className="rounded" alt="art-icon" height="50px" width="50px"></img>
             </Link>
             <ul className="nav-links">
                 <Link to="/" style={navStyle}>

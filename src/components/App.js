@@ -27,13 +27,9 @@ class App extends React.Component {
                 <div>
                     <Nav />
                     <div className="container" style={{ marginTop: '10px' }}>
+                        <Home />
                         <SearchBar onSubmit={this.onSearchSubmit} />
                         <Switch>
-                            <Route 
-                                path="/" exact
-                                render={(props) => <Home {...props} randomImages={this.state.randomImages}
-                                runIt={this.getRandomImages} />}
-                            />
                             <Route 
                                 path="/search=:searchTerm" exact 
                                 render={(props) => <ImageList {...props} images={this.state.images} />} 
